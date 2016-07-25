@@ -1,5 +1,4 @@
-# LSTM
-# A simple code for implementate the LSTM
+﻿# A simple code for implementate the LSTM
 
 ---
 **Feed forward propagation:**
@@ -12,3 +11,5 @@ $$o_{t}= \sigma \left (W_{xo}x_{t}+W_{ho}h_{t-1}+b_{o}\right )$$
 $$g_{t}= \phi \left (W_{xg}x_{t}+W_{hg}h_{t-1}+b_{g}\right )$$
 $$c_{t} = f_{t} \odot c_{t-1}+i_{t} \odot g_{t}$$
 $$h_{t} = o_{t} \odot \phi\left (c_{t}\right )$$
+
+
