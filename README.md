@@ -1,8 +1,11 @@
 ﻿# A simple code for implementate the LSTM
 
 ---
-**Feed forward propagation:**
+
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+**Feed forward propagation:**
+
 $$\sigma \left ( x \right )= \left ( 1+e^{-x} \right )^{-1}$$
 $$\phi\left ( x \right )= \frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$$
 $$i_{t}= \sigma \left (W_{xi}x_{t}+W_{hi}h_{t-1}+b_{i}\right )$$
